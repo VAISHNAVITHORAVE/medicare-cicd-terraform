@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         EC2_USER = "ubuntu"
-        EC2_IP   = "YOUR_EC2_PUBLIC_IP"
+        EC2_IP = "65.2.3.102"
         APP_DIR  = "/var/www/html"
     }
 
