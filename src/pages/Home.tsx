@@ -12,8 +12,8 @@ export default function Home() {
     <section className="bg-gradient-to-b from-white to-page">
       <div className="wrap grid items-center gap-12 py-14 lg:grid-cols-2 lg:py-20">
         <div className="rise">
-          <span className="inline-block rounded-full bg-brand/10 px-4 py-1.5 text-xs font-bold tracking-wide text-brand">YOUR TRUSTED HEALTHCARE PARTNER</span>
-          <h1 className="mt-5 text-4xl leading-tight sm:text-5xl">Expert Care for a <span className="text-brand">Healthier Tomorrow.</span></h1>
+          <span className="inline-block rounded-full bg-brand/10 px-4 py-1.5 text-xs font-bold tracking-wide text-brand">YOUR TRUSTED HEALTHCARE PARTNER • LIVE CI/CD DEPLOYMENT</span>
+          <h1 className="mt-5 text-4xl leading-tight sm:text-5xl">Expert Care for a <span className="text-brand">Healthier & Smarter Tomorrow.</span></h1>
           <p className="mt-5 max-w-xl text-lg text-muted">Find doctor information and send appointment requests from one simple, convenient place.</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row"><Link to="/appointment" className="btn-p">Book an Appointment</Link><Link to="/doctors" className="btn-s">Explore Our Doctors</Link></div>
           <ul className="mt-8 grid gap-3 sm:grid-cols-3">{trust.map(([I, t]) => <li key={t} className="flex items-center gap-2 text-sm font-semibold text-navy"><I size={18} className="shrink-0 text-teal" aria-hidden />{t}</li>)}</ul>
